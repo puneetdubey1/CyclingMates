@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CyclingMates</string>
+    <string name="cyclistlist_fragment">CyclistList Fragment</string>
+    <string name="cyclistdetails_fragment">CyclistDetails Fragment</string>
+    <string name="cyclists_list">Cyclists List</string>
+    <string name="call">Call</string>
+    <string name="email">Email</string></resources>
