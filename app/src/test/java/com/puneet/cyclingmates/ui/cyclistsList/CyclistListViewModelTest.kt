@@ -7,12 +7,12 @@ import com.puneet.cyclingmates.data.repository.CyclistRepository
 import com.puneet.cyclingmates.ui.cyclingmateslist.CyclistListViewModel
 import io.mockk.MockKAnnotations
 import io.mockk.coVerify
-import io.mockk.impl.annotations.MockK
-import io.mockk.mockk
-import io.mockk.verify
-import io.mockk.slot
 import io.mockk.every
+import io.mockk.impl.annotations.MockK
 import io.mockk.invoke
+import io.mockk.mockk
+import io.mockk.slot
+import io.mockk.verify
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.test.setMain
 import org.junit.Before

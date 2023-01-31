@@ -37,6 +37,7 @@ ext {
     glideVersion = '4.12.0'
     mockkVersion = '1.13.2'
     coreTestVersion = '2.1.0'
+    junitKtxVestion = '1.1.5'
 }
 
 task clean(type: Delete) {

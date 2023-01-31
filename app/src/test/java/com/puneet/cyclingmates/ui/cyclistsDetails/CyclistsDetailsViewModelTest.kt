@@ -13,8 +13,6 @@ import io.mockk.every
 import io.mockk.impl.annotations.MockK
 import io.mockk.mockk
 import io.mockk.verify
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.test.setMain
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
@@ -24,7 +22,7 @@ import org.mockito.junit.MockitoJUnit
 import org.mockito.junit.MockitoRule
 
 
-    @RunWith(JUnit4::class)
+@RunWith(JUnit4::class)
     class CyclistsDetailsViewModelTest {
 
         @get:Rule
@@ -40,9 +38,8 @@ import org.mockito.junit.MockitoRule
 
         @Before
         fun setUp() {
-            Dispatchers.setMain(Dispatchers.Unconfined)
             MockKAnnotations.init(this, relaxUnitFun = true)
-            every { savedStateHandle.get<Cyclists>("cyclists") } returns getMockedUser()
+            every { savedStateHandle.get<Cyclists>("cyclist") } returns getMockedUser()
         }
 
         @Test
