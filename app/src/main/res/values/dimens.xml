@@ -2,17 +2,21 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <dimen name="card_corner_radius">4dp</dimen>
     <dimen name="card_elevation">4dp</dimen>
-    <dimen name="profile_image_width">72dp</dimen>
-    <dimen name="profile_image_height">72dp</dimen>
+    <dimen name="profile_image_width">76dp</dimen>
+    <dimen name="profile_image_height">76dp</dimen>
     <dimen name="margin_cyclist_list_item">8dp</dimen>
     <dimen name="padding_cyclist_list_item">16dp</dimen>
     <dimen name="margin_image_and_name">16dp</dimen>
     <dimen name="padding_cyclist_details">8dp</dimen>
     <dimen name="card_padding">16dp</dimen>
-    <dimen name="profile_image_large_width">300dp</dimen>
-    <dimen name="profile_image_large_height">300dp</dimen>
+    <dimen name="profile_image_large_width">310dp</dimen>
+    <dimen name="profile_image_large_height">310dp</dimen>
     <dimen name="name_text_size">16sp</dimen>
     <dimen name="location_text_size">16sp</dimen>
     <dimen name="padding_call_email_button">30dp</dimen>
+    <dimen name="gradient_angle">69dp</dimen>
+    <dimen name="image_bg_radius">1000dp</dimen>
+    <dimen name="image_padding">2dp</dimen>
+    <dimen name="image_elevation">4dp</dimen>
 
 </resources>

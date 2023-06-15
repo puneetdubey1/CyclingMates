@@ -5,6 +5,6 @@ import retrofit2.Response
 import retrofit2.http.GET
 
 interface EndpointApiCall {
-    @GET("api/?results=50")
+    @GET("api/?results=200")
     suspend fun fetchCyclists(): Response<CyclistsResponse>
 }
