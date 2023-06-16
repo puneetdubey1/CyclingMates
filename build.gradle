@@ -24,19 +24,19 @@ ext {
     compileSdkVersion = 33
     minSdkVersion = 28
     targetSdkVersion = 33
-    kotlinExtVersion = '1.9.0'
+    kotlinExtVersion = '1.10.1'
     androidxVersion = '1.1.0'
-    materialVersion = '1.8.0'
+    materialVersion = '1.9.0'
     constraintLayoutVersion = '2.1.4'
     junitVersion = '4.13.2'
-    liveDataExtVersion = '2.5.1'
-    viewModelExtVersion = '2.5.1'
+    liveDataExtVersion = '2.6.1'
+    viewModelExtVersion = '2.6.1'
     retrofitVersion = '2.9.0'
     coroutineVersion = '1.6.4'
     logginInterceptroVersion = '5.0.0-alpha.10'
-    glideVersion = '4.12.0'
+    glideVersion = '4.13.2'
     mockkVersion = '1.13.2'
-    coreTestVersion = '2.1.0'
+    coreTestVersion = '2.2.0'
     junitKtxVestion = '1.1.5'
 }
 

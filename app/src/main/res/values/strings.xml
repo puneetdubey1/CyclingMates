@@ -4,4 +4,5 @@
     <string name="cyclistdetails_fragment">CyclistDetails Fragment</string>
     <string name="cyclists_list">Cyclists List</string>
     <string name="call">Call</string>
-    <string name="email">Email</string></resources>
+    <string name="email">Email</string>
+    <string name="profile_pic_content_description">This is %1$s\'s profile pic</string></resources>

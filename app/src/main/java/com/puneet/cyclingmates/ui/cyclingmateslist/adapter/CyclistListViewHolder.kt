@@ -19,6 +19,7 @@ class CyclistListViewHolder(
         binding.textViewName.text = cyclist.name.formattedName()
         binding.textViewEmail.text = cyclist.email
         binding.textViewLocation.text = cyclist.location.formattedLocation()
+        binding.imageViewProfilePic.contentDescription = "This is ${cyclist.name}'s profile pic"
 
         Glide.with(binding.imageViewProfilePic)
             .load(cyclist.picture.medium)

@@ -14,7 +14,7 @@
     <dimen name="name_text_size">16sp</dimen>
     <dimen name="location_text_size">16sp</dimen>
     <dimen name="padding_call_email_button">30dp</dimen>
-    <dimen name="gradient_angle">69dp</dimen>
+    <dimen name="gradient_angle">70</dimen>
     <dimen name="image_bg_radius">1000dp</dimen>
     <dimen name="image_padding">2dp</dimen>
     <dimen name="image_elevation">4dp</dimen>

@@ -13,6 +13,7 @@ import com.puneet.cyclingmates.data.ext.launchDialpad
 import com.puneet.cyclingmates.data.ext.launchEmail
 import com.puneet.cyclingmates.databinding.FragmentCyclistDetailsBinding
 
+
 class CyclistDetailsFragment : Fragment() {
 
     private lateinit var binding: FragmentCyclistDetailsBinding
@@ -36,6 +37,9 @@ class CyclistDetailsFragment : Fragment() {
     private fun initObservers() {
         viewModel.name.observe(viewLifecycleOwner) { name ->
             binding.textViewName.text = name
+            val contentDescription = getString(R.string.profile_pic_content_description, name)
+            binding.imageViewProfilePic.contentDescription = contentDescription
+            binding.imageViewProfilePic.contentDescription = "This is $name profile pic"
         }
         viewModel.email.observe(viewLifecycleOwner) { email ->
             binding.textViewEmail.text = email
